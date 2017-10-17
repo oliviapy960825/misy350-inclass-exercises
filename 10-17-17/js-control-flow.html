@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS Control Flow Exercise</title>
+    <script type="text/javascript">
+      let my_name="Wang Peiyu";
+      console.log(`My name is ${my_name}.`);
+      console.log("My name has "+my_name.length+" letters.");
+      console.log(my_name.toUpperCase());
+    </script>
+  </head>
+  <body>
+    <h1>Check console for output</h1>
+    <script type="text/javascript">
+      let pi=3.145;
+      console.log(Math.random()*pi);
+      console.log(Math.floor(pi));
+      // the grade calculator
+      let grade=65;
+      let letter_grade;
+      if(grade>=90){
+        letter_grade='A';
+      }
+      else if (grade>=80) {
+        letter_grade='B';
+      }
+      else if (grade>=70) {
+        letter_grade='C';
+      }
+      else if (grade>=60) {
+        letter_grade='D';
+      }
+      else{
+        letter_grade='F';
+      }
+      console.log(letter_grade);
+      //tenary operator
+      if(letter_grade==='A'){
+        console.log("You got an iWatch");
+      }
+      else{
+        console.log("Nothing.");
+      }
+      letter_grade=="A" ? console.log("You got an iWatch")
+      :console.log("Nothing");
+      switch(true){
+        case (grade>=90):
+        letter_grade='A';
+        break;
+        case (grade>=80):
+        letter_grade='B';
+        break;
+        default:
+        letter_grade='C';
+        break;
+      }
+      console.log(letter_grade+"in switch");
+    </script>
+  </body>
+</html>

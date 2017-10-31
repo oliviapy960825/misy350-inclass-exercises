@@ -4,7 +4,7 @@ function main(){
   //document.getElementById("google").innerHTML= "Google";
   $('#google').html('Gooooogle');
   //let links=document.getElementsByClassName("my-link");
-  let links= $('.my-link');
+  let links= $('.my-links');
   links[0].innerHTML="Twitter";
   links[0].href="http://www.twitter.com";
   links[1].innerHTML="LinkedIn";
